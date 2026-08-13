@@ -40,6 +40,8 @@ Finally, DistilGPT-2 was fine-tuned on the same corpus using a custom PyTorch tr
 * Fine-tuning DistilGPT-2 reduced perplexity from **27.6 to 13.3** within 3 epochs, an improvement of approximately **52%**.
 * Introducing pre-trained GloVe embeddings reduced the initial training loss of the word-level GRU by approximately **40%** compared with training embeddings from scratch.
 
+**Note**: GitHub may not render the notebook preview correctly due to embedded Jupyter widget metadata. The .ipynb file can be downloaded and opened normally in Jupyter Notebook or Google Colab.
+
 
 ## Dataset
 

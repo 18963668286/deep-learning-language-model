@@ -2,6 +2,8 @@
 
 A deep learning language modelling project exploring the progression from recurrent neural networks to Transformer-based architectures on *Alice's Adventures in Wonderland*.
 
+**Note**: GitHub may not render the notebook preview correctly due to embedded Jupyter widget metadata. The .ipynb file can be downloaded and opened normally in Jupyter Notebook or Google Colab.
+
 ## Project Overview
 
 This project compares several approaches to language modelling, including character-level and word-level GRU models, pre-trained word embeddings, a decoder-only Transformer trained from scratch, and fine-tuning of a pre-trained DistilGPT-2 model.
@@ -39,8 +41,6 @@ Finally, DistilGPT-2 was fine-tuned on the same corpus using a custom PyTorch tr
 * The decoder-only Transformer achieved a final training loss of **0.42** after 50 epochs.
 * Fine-tuning DistilGPT-2 reduced perplexity from **27.6 to 13.3** within 3 epochs, an improvement of approximately **52%**.
 * Introducing pre-trained GloVe embeddings reduced the initial training loss of the word-level GRU by approximately **40%** compared with training embeddings from scratch.
-
-**Note**: GitHub may not render the notebook preview correctly due to embedded Jupyter widget metadata. The .ipynb file can be downloaded and opened normally in Jupyter Notebook or Google Colab.
 
 
 ## Dataset
